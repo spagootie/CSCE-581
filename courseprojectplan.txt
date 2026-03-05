@@ -1,0 +1,13 @@
+Problem: Systemic bias in automated loan approvals creates even more inequality in a fundamentally corrupt system
+
+User: Loan applicants currently rely on opaque financial algorithms
+
+AI Method: Binary classification + fairness auditing, with LLM-based explanation
+
+Data: HMDA (Home Mortgage Disclosure Act) dataset.
+
+Reliability: Maintain predictive accuracy while reducing fairness disparities
+
+Human Values: Address bias and proxy discrimination
+
+Human-AI Trust: Provide transparent explanations, fairness metrics, and human oversight
