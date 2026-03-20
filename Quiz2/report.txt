@@ -1,0 +1,41 @@
+Madison Byrd
+3/19/26
+
+For this quiz I'll be using the COMPASS and credit fraud datasets with
+logistic regression, random forest, SHAP, and LIME.
+
+I'm running this on my Linux box with Jupyter Notebook.
+Here are the pip packages I installed:
+numpy pandas scikit-learn matplotlib shap lime
+
+ COMPAS Logistic Regression: Accuracy 0.9647, ROC AUC 0.9946, PR AUC 0.9924
+    This is a pretty good score, about 96% accurate. But I think this might be inflated,
+    and I'll explain more later.
+
+ COMPAS Random Forest: Accuracy 0.9744, ROC AUC 0.9986, PR AUC 0.9981
+    Slightly better than logistic regression.
+
+
+Credit Fraud Logistic Regression: Accuracy 0.9755, ROC AUC 0.9721, PR AUC 0.7190
+Credit Fraud Random Forest: Accuracy 0.9995, ROC AUC 0.9471, PR AUC 0.8583
+    RF seems to be ridiculously accurate here. Hopefully SHAP and LIME will show why.
+
+COMPASS + lr + SHAP:
+COMPASS + rf + SHAP:
+    The three features id_recid, event, and end seem to be way more important than 
+    the others. I suspect the model is cheating.
+
+COMPASS + LIME:
+   similar results as SHAP. 
+
+
+Fraud + lr + SHAP:
+    This seems a lot more balanced than the results for the previous dataset, which
+    confirms my suspicions. The top 3 aren't leading by that much.
+
+Fraud + rf + SHAP:
+    This looks a little more jagged, but much better than the COMPASS stuff. 
+    The features seem to be totally different here.
+    
+Fraud + LIME:
+    This one seems very similar to rf + SHAP, with V17 and V4 at the top.
