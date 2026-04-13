@@ -1,0 +1,17 @@
+Actual label: primary
+Predicted: primary
+
+
+Top features for secondary (class 1):
+  purposes: -0.0507
+  voting: 0.0291
+  voter: -0.0236
+  time: 0.0212
+  Iowa: -0.0178
+  residence: 0.0171
+  away: -0.0142
+  located: 0.0135
+  citizens: 0.0114
+  lose: 0.0100
+  register: 0.0096
+  vote: 0.0073

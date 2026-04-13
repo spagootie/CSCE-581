@@ -1,0 +1,21 @@
+{
+  "dataset_rows": 3097,
+  "label_counts": {
+    "0": 1966,
+    "1": 1131
+  },
+  "train_size": 2322,
+  "test_size": 775,
+  "models": [
+    {
+      "model": "LogisticRegression",
+      "f1": 0.8814159292035398,
+      "roc_auc": 0.9602832600764172
+    },
+    {
+      "model": "MultinomialNB",
+      "f1": 0.8604206500956023,
+      "roc_auc": 0.9518874429026976
+    }
+  ]
+}

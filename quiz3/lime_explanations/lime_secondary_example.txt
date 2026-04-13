@@ -1,0 +1,17 @@
+Actual label: secondary
+Predicted: secondary
+
+
+Top features for secondary (class 1):
+  ID: 0.1400
+  available: 0.0615
+  hours: 0.0381
+  state: 0.0370
+  day: -0.0339
+  voting: 0.0289
+  required: 0.0280
+  forms: 0.0262
+  excuse: 0.0234
+  early: 0.0211
+  website: 0.0207
+  open: 0.0187
