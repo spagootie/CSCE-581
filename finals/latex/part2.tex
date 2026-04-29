@@ -1,0 +1,126 @@
+\documentclass[12pt]{article}
+\usepackage[notes,backend=biber]{biblatex-chicago}
+\addbibresource{references.bib}
+\usepackage{graphicx}
+
+% ---------- Packages ----------
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{fvextra}
+
+\DefineVerbatimEnvironment{llm}{Verbatim}{
+  breaklines=true,
+  fontsize=\small,
+  frame=single,
+  framerule=0.2pt,
+  rulecolor=\color{gray!40},
+  framesep=6pt,
+  bgcolor=gray!8
+}
+
+% ---------- Chicago-style basics ----------
+\setlength{\parindent}{0.5in}
+\setlength{\parskip}{0pt}
+\doublespacing
+
+% ---------- Header / Footer ----------
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\headheight}{14.5pt}
+
+% ---------- Title formatting ----------
+\titleformat{\section}
+  {\normalfont\bfseries}
+  {\thesection}{1em}{}
+
+% ---------- Document ----------
+\begin{document}
+
+% ---------- Title Page ----------
+\begin{titlepage}
+\centering
+\vspace*{2in}
+
+{\Large \textbf{FICO/Health Scores evaluation}}
+
+\vspace{1.5in}
+
+Madison Byrd \\
+CSCE 581 \\
+Biplav Srivastava \\
+April 29, 2026 \\ 
+
+\vfill
+\end{titlepage}
+
+\section{FICO Score Experiment}
+
+An easy way to test if the FICO score and guidelines are being used is to isolate the variables that aren't supposed to 
+factor in. For example, loan applications with the same FICO score and loan amount could be made but with the 
+name, gender, area, etc of the applicant being the manipulated variables. If the approval rates are different based
+on these manipulated variables, the guidelines aren't being followed. In a similar vein, the variables that are supposed to 
+factor into FICO could be adjusted to see if the result changes. If it stays the same, it's not FICO. If it's different, that's
+supporting evidence.
+
+Also, if FICO scores are supposed to be deterministic. If multiple identical applications don't get the same result, it
+isn't deterministic and therefore isn't FICO.
+
+\section{HEALTH Score}
+
+An easy factor that strongly coorelates with health is age. Age coorelates with most health issues. I think this spread is reasonable:
+\begin{itemize}
+    \item{Visits/Year: 20\%}
+\end{itemize}
+
+Someone that visits health facilities more times a year probably isn't as healthy as someone that visits them less. 
+Most healthy people don't often go to hospitals.
+
+\begin{itemize}
+    \item{Diet: 15\%}
+\end{itemize}
+
+Diet is a pretty important health factor, but I think the last two have a bigger impact.
+
+\begin{itemize}
+    \item{Family History: 15\%}
+\end{itemize}
+
+This one can be important for certain health conditions, but treatments and lifestyle adjustments can sometimes
+be prescribed to offset these if they're a concern. For example, someone with a family history of alcoholism can
+preemptively choose not to start drinking.
+
+\begin{itemize}
+    \item{Financial Score: 20\%}
+\end{itemize}
+
+Unfortunately, finances impact what treatments and healthcare professionals someone has access to. Poorer people
+are pretty consistently less healthy.
+
+\begin{itemize}
+    \item{Age: 30\%}
+\end{itemize}
+
+The big one. Your likelihood of running into most health issues increases as you age. A person in old age is much likelier to
+have health issues than a young person.
+
+There are some pretty obvious isses with how this score could be practically applied, and my mind jumps to insurance. 
+If insurers are less willing to insure people with lower HEALTH scores because they see them as liabilities, it will
+very directly disadvantage those people and make the least healthy people even less healthy. Because of the way the score
+is calculated, this would be much worse for poor people, old people, and people that make frequent hospital visits. 
+Ironically, all of these people would be most in need of health insurance. 
+
+I think a HEALTH score could be useful outside of the context of the profit motive, and in the case of the profit motive 
+it has the potential to be very destructive. Ideally a HEALTH score would be used by healthcare professionals to know which
+patients need the most attention, to identify health risks, and to encourage healthier lifestyles.
+
+
+\end{document}
