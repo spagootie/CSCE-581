@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber part3"] 0 "part3.bcf" "part3.bbl" "part3" 1777567213.19912 0
+["biber part3"] 0 "part3.bcf" "part3.bbl" "part3" 1777567494.87213 0
   "part3.bcf" 0 -1 0 "pdflatex"
   "references.bib" 0 -1 0 ""
   (generated)
   "part3.bbl"
   "part3.blg"
   (rewritten before read)
-["pdflatex"] 1777567211.40332 "part3.tex" "part3.pdf" "part3" 1777567213.19988 0
+["pdflatex"] 1777567492.93356 "part3.tex" "part3.pdf" "part3" 1777567494.87285 0
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1772820570 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1772820570 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1772820570 1288 655e228510b4c2a1abe905c368440826 ""
@@ -88,11 +88,12 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1772820570 43569 fd570f2fa160877d211e859f687312ba ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1775020961 5385779 47c0c393a77fd4a098bacfd57d66b88a ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1775020931 2328189 03d1820e0bbcb5af26c6aff276d16fde ""
-  "part3.aux" 1777567212.99317 754 6dd479883d9fdf6e29afcd86b26691c4 "pdflatex"
+  "description.png" 1777567411.85404 210811 8e3f02cb647f8139f39caaecddc3bbb8 ""
+  "part3.aux" 1777567494.68153 1044 7fea55f728c4f5c139c96cddd0f2110a "pdflatex"
   "part3.bbl" 0 -1 0 "biber part3"
-  "part3.out" 1777567212.99452 269 9fb7d92013a8b09c39d8b54f3196c0b6 "pdflatex"
-  "part3.run.xml" 1777567212.99861 2360 b5277858e834236d6067ce810b286817 "pdflatex"
-  "part3.tex" 1777567211.37823 2775 6f3f55dc251a9bef8c29d9692565c103 ""
+  "part3.out" 1777567494.68239 390 74f225a810516e3953ca6537d765ed47 "pdflatex"
+  "part3.run.xml" 1777567494.68594 2360 b5277858e834236d6067ce810b286817 "pdflatex"
+  "part3.tex" 1777567489.25173 2961 1e27624f58ddaa46eada731e3d396563 ""
   "results.png" 1777566706.27578 44022 132ea99526e32ad90aaff8d9c1382a7d ""
   (generated)
   "part3.aux"

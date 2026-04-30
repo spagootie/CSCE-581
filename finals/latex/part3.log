@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.3.31)  30 APR 2026 12:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.3.31)  30 APR 2026 12:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -650,40 +650,46 @@ Package caption Info: End \AtBeginDocument code.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<results.png, id=23, 807.015pt x 274.02374pt>
-File: results.png Graphic file (type png)
-<use results.png>
-Package pdftex.def Info: results.png  used on input line 80.
-(pdftex.def)             Requested size: 469.75502pt x 159.50671pt.
+<description.png, id=27, 682.80093pt x 522.45187pt>
+File: description.png Graphic file (type png)
+<use description.png>
+Package pdftex.def Info: description.png  used on input line 79.
+(pdftex.def)             Requested size: 469.75502pt x 359.43988pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.98 
-      [1 <./results.png>] [2] (./part3.aux)
+l.82 
+      [1]
+<results.png, id=32, 807.015pt x 274.02374pt>
+File: results.png Graphic file (type png)
+<use results.png>
+Package pdftex.def Info: results.png  used on input line 88.
+(pdftex.def)             Requested size: 469.75502pt x 159.50671pt.
+ [2 <./description.png>] [3 <./results.png>] (./part3.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `part3.out' has not changed.
-(rerunfilecheck)             Checksum: 9FB7D92013A8B09C39D8B54F3196C0B6;269.
+(rerunfilecheck)             Checksum: 74F225A810516E3953CA6537D765ED47;390.
 Package logreq Info: Writing requests to 'part3.run.xml'.
 \openout1 = `part3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22705 strings out of 469515
- 411263 string characters out of 5470807
- 1569627 words of memory out of 5000000
- 51173 multiletter control sequences out of 15000+600000
+ 22716 strings out of 469515
+ 411458 string characters out of 5470807
+ 1568627 words of memory out of 5000000
+ 51181 multiletter control sequences out of 15000+600000
  628932 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  85i,11n,93p,694b,3950s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on part3.pdf (3 pages, 64640 bytes).
+Output written on part3.pdf (4 pages, 188154 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 30 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 60 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
